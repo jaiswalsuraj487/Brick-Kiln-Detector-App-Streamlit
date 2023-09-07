@@ -1,0 +1,12 @@
+streamlit
+folium==0.14.0
+streamlit-folium==0.13.0
+requests
+temp
+zipfile36
+Pillow
+numpy
+tensorflow
+gdown
+matplotlib
+pandas
