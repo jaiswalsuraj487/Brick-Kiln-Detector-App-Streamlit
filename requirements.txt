@@ -1,6 +1,6 @@
 streamlit
-folium==0.14.0
-streamlit-folium==0.13.0
+folium
+streamlit-folium
 requests
 temp
 zipfile36
@@ -10,3 +10,4 @@ tensorflow
 gdown
 matplotlib
 pandas
+
