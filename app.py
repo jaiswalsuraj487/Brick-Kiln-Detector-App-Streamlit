@@ -187,10 +187,10 @@ def main():
     # Specify the latitude and longitude for the rectangular bounding box
     st.sidebar.title("Bounding Box")
     
-    box_lat1 = st.sidebar.number_input("Latitude of Bottom-left corner:", value=28.74, step=0.01,on_change=callback_map)
-    box_lon1 = st.sidebar.number_input("Longitude of Bottom-Left corner:", value=77.60, step=0.01,on_change=callback_map)
-    box_lat2 = st.sidebar.number_input("Latitude of Top-Right corner:", value=28.90, step=0.01,on_change=callback_map)
-    box_lon2 = st.sidebar.number_input("Longitude of Top-Right corner:", value=77.90, step=0.01,on_change=callback_map)
+    box_lat1 = st.sidebar.number_input("Latitude of Bottom-left corner:", value=26.40, step=0.01,on_change=callback_map)
+    box_lon1 = st.sidebar.number_input("Longitude of Bottom-Left corner:", value=79.55, step=0.01,on_change=callback_map)
+    box_lat2 = st.sidebar.number_input("Latitude of Top-Right corner:", value=26.45, step=0.01,on_change=callback_map)
+    box_lon2 = st.sidebar.number_input("Longitude of Top-Right corner:", value=79.60, step=0.01,on_change=callback_map)
 
     # Add the rectangular bounding box to the map
     bounding_box_polygon = folium.Rectangle(
@@ -209,7 +209,7 @@ def main():
     folium_static(st.session_state.india_map)
     
     ab = st.secrets["Api_key"]
-    # ab = "AIzaSyBeJk6-KA_Xg7NRasqP1GJxhfgXE1qm9Pg"
+    # ab = "AIzaSyCBGIlzrt1yWOzXU7L3_2eaSJcxFHiedz0"
     
 
 
